@@ -1,0 +1,24 @@
+.signup-data {
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.btn_signup {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn_signup:hover {
+    background-color: rgba(0, 0, 255, 0.514)
+}
+
+.login {
+    color: white;
+    padding: 5px 10px 20px 10px;
+
+}

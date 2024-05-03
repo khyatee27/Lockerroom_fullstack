@@ -1,0 +1,14 @@
+{
+  "name": "lockerroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd Frontend && npm run dev",
+    "start:backend": "cd Backend && node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

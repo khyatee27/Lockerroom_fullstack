@@ -1,0 +1,75 @@
+.left {
+    flex: 30%;
+    min-height: 80%;
+    background-color: hwb(195 19% 49% / 0.632);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.middle {
+    flex: 50%;
+    min-height: 80%;
+    background-color: hwb(180 90% 9% / 0.632);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.right {
+    flex: 20%;
+    min-height: 80%;
+    background-color: hwb(195 19% 49% / 0.632);
+    border-radius: 10px;
+}
+
+.main {
+    height: 85vh;
+    width: 80vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.left,
+.middle,
+.right {
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+body,
+html {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.middle_list {
+    flex: 70%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.middle_message {
+    flex: 30%;
+
+    margin-bottom: 20px;
+
+
+}
+
+.middle_main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn_send {
+
+    margin-bottom: 20px;
+}

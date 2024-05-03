@@ -1,0 +1,21 @@
+{
+  "name": "20-backend-203-express-advanced-khyatee27",
+  "version": "1.0.0",
+  "description": "- Repository: `lokkeroom` - Type of Challenge: `Consolidation` - Duration: `5 days` - Deployment strategy : `Heroku` - Team challenge : `solo`",
+  "main": "user.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "db": "^6.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5"
+  }
+}
