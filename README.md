@@ -1,7 +1,7 @@
 # Lockerroom_fullstack
 react front end and express node Postgresql backend Chat full stack application
 
-/api/register	                POST		    email, and a password	        A message stating the user has been created (or the approriate error, if any)
+/api/register	             |   POST		 |   email, and a password	  |      A message stating the user has been created (or the approriate error, if any)
 /api/login	                  POST		    email & password	            A JSON Web Token/session ID (or the approriate error, if any)
 /api/lobby/[lobby-id]	        GET		-                                	  An array containing all the message from the lobby
 /api/lobby/[lobby-id]/
