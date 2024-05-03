@@ -11,7 +11,7 @@ function Register() {
         event.preventDefault();
         console.log("submit is called")
 
-        axios.post('/api/signup', values)
+        axios.post('https://lockerroom-app-fb83929a7a54.herokuapp.com/api/signup', values)
             .then(res => console.log(res))
             .catch(err => console.log(err));
     }
